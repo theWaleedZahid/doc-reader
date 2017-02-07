@@ -1,10 +1,14 @@
-# Simple Annotations Parser in PHP
+# Simple Annotations Parser(DocReader) in PHP
 
 Just a Simple Annotation Parser in PHP
 
 ## Installation
 
 Install [Composer](https://getcomposer.org/) and learn to use it.
+
+Library is on [Packagist](https://packagist.org/packages/waleedzahid106a/).
+
+Just open console in your project directory and type `composer require waleedzahid106a/doc-reader` to install DocReader.
 
 If you don't want to use Composer instead of `include_once "vendor/autoload.php"` use `include_once "src/DocReader/Reader.php"`.
 
