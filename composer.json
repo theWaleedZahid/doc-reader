@@ -1,0 +1,22 @@
+{
+	"name": "waleedzahid106a/doc-reader",
+	"description": "Just a Simple Annotation Parser in PHP",
+	"homepage": "https://www.github.com/waleedzahid106a/doc-reader",
+	"keywords": ["doc-reader", "annotation", "parser", "parser in php", "annotation parser in php"],
+	"authors": 
+	[
+		{
+			"name": "Waleed Zahid",
+			"email": "waleed.zahid654@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require":{ "php": ">=5.3.0" },
+	"autoload":
+	{
+		"psr-0":
+		{
+			"DocReader": "src/"
+		}
+	}
+}
