@@ -4,13 +4,7 @@ Just a Simple Annotation Parser in PHP
 
 ## Installation
 
-Install [Composer](https://getcomposer.org/) and learn to use it.
-
-Library is on [Packagist](https://packagist.org/packages/waleedzahid106a/).
-
-Just open console in your project directory and type `composer require waleedzahid106a/doc-reader` to install DocReader.
-
-If you don't want to use Composer instead of `include_once "vendor/autoload.php"` use `include_once "src/DocReader/Reader.php"`.
+Just Download this Repository and Place `src` folder on your server directory.
 
 ## Examples
 
@@ -19,7 +13,7 @@ If you don't want to use Composer instead of `include_once "vendor/autoload.php"
 ```php
 <?php
 
-include_once "vendor/autoload.php";
+include_once "src/DocReader/Reader.php";
 
 class MyClass
 {
@@ -57,7 +51,7 @@ var_dump($reader->getParams());
 ```php
 <?php
 
-include_once "vendor/autoload.php";
+include_once "src/DocReader/Reader.php";
 
 class MyClass
 {
@@ -97,7 +91,7 @@ will print
 ```php
 <?php
 
-include_once "vendor/autoload.php";
+include_once "src/DocReader/Reader.php";
 
 class MyClass
 {
@@ -138,7 +132,7 @@ I found below functionality useful for filtering `$_GET`/`$_POST` data in CodeIg
 ```php
 <?php
 
-include_once "vendor/autoload.php";
+include_once "src/DocReader/Reader.php";
 
 class MyClass
 {
