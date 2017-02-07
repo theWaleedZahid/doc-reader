@@ -13,7 +13,7 @@ Just Download this Repository and Place `src` folder on your server directory.
 ```php
 <?php
 
-include_once "src/DocReader/Reader.php";
+include_once "src/DocReader/DocReader.php";
 
 class MyClass
 {
@@ -51,7 +51,7 @@ var_dump($reader->getParams());
 ```php
 <?php
 
-include_once "src/DocReader/Reader.php";
+include_once "src/DocReader/DocReader.php";
 
 class MyClass
 {
@@ -91,7 +91,7 @@ will print
 ```php
 <?php
 
-include_once "src/DocReader/Reader.php";
+include_once "src/DocReader/DocReader.php";
 
 class MyClass
 {
@@ -132,7 +132,7 @@ I found below functionality useful for filtering `$_GET`/`$_POST` data in CodeIg
 ```php
 <?php
 
-include_once "src/DocReader/Reader.php";
+include_once "src/DocReader/DocReader.php";
 
 class MyClass
 {
